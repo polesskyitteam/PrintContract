@@ -1,0 +1,355 @@
+﻿<Window x:Class="Contract.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:user="clr-namespace:Contract"
+        Title="MainWindow"
+        Width="619.463"
+        Height="636.731">
+    <Window.DataContext>
+        <user:MainWindowsView />
+    </Window.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="59*" />
+            <ColumnDefinition Width="97*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Width="174"
+                   Height="24"
+                   Margin="30,38,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontFamily="Segoe WP"
+                   FontWeight="Bold"
+                   RenderTransformOrigin="0.5,0.5"
+                   Text="Дата заключения договора"
+                   TextWrapping="Wrap">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform AngleX="-18.435" />
+                    <RotateTransform />
+                    <TranslateTransform X="4" />
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+            <TextBlock.Effect>
+                <DropShadowEffect Opacity="0.6" Color="#FF918D8D" />
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock Width="174"
+                   Height="24"
+                   Margin="31,76,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontFamily="Segoe WP"
+                   FontWeight="Bold"
+                   RenderTransformOrigin="0.5,0.5"
+                   Text="Ф.И.О."
+                   TextWrapping="Wrap">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform AngleX="-18.435" />
+                    <RotateTransform />
+                    <TranslateTransform X="4" />
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+            <TextBlock.Effect>
+                <DropShadowEffect Opacity="0.6" Color="#FF918D8D" />
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock Width="97"
+                   Height="24"
+                   Margin="48,114,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontFamily="Segoe WP"
+                   FontWeight="Bold"
+                   RenderTransformOrigin="0.5,0.5"
+                   Text="Ф.И.О. ребенка"
+                   TextWrapping="Wrap">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform AngleX="-18.435" />
+                    <RotateTransform />
+                    <TranslateTransform X="4" />
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+            <TextBlock.Effect>
+                <DropShadowEffect Opacity="0.6" Color="#FF918D8D" />
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock Width="174"
+                   Height="24"
+                   Margin="30,152,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontFamily="Segoe WP"
+                   FontWeight="Bold"
+                   RenderTransformOrigin="0.5,0.5"
+                   Text="Дата рождения"
+                   TextWrapping="Wrap">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform AngleX="-18.435" />
+                    <RotateTransform />
+                    <TranslateTransform X="4" />
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+            <TextBlock.Effect>
+                <DropShadowEffect Opacity="0.6" Color="#FF918D8D" />
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock Width="174"
+                   Height="24"
+                   Margin="30,190,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontFamily="Segoe WP"
+                   FontWeight="Bold"
+                   RenderTransformOrigin="0.5,0.5"
+                   Text="Адресс"
+                   TextWrapping="Wrap">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform AngleX="-18.435" />
+                    <RotateTransform />
+                    <TranslateTransform X="4" />
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+            <TextBlock.Effect>
+                <DropShadowEffect Opacity="0.6" Color="#FF918D8D" />
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock Width="174"
+                   Height="24"
+                   Margin="30,228,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontFamily="Segoe WP"
+                   FontWeight="Bold"
+                   RenderTransformOrigin="0.5,0.5"
+                   Text="Контактный телефон"
+                   TextWrapping="Wrap">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform AngleX="-18.435" />
+                    <RotateTransform />
+                    <TranslateTransform X="4" />
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+            <TextBlock.Effect>
+                <DropShadowEffect Opacity="0.6" Color="#FF918D8D" />
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock Width="174"
+                   Height="24"
+                   Margin="30,266,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontFamily="Segoe WP"
+                   FontWeight="Bold"
+                   RenderTransformOrigin="0.5,0.5"
+                   Text="E-mail"
+                   TextWrapping="Wrap">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform AngleX="-18.435" />
+                    <RotateTransform />
+                    <TranslateTransform X="4" />
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+            <TextBlock.Effect>
+                <DropShadowEffect Opacity="0.6" Color="#FF918D8D" />
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock Width="174"
+                   Height="24"
+                   Margin="30,304,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontFamily="Segoe WP"
+                   FontWeight="Bold"
+                   RenderTransformOrigin="0.5,0.5"
+                   Text="Диагноз"
+                   TextWrapping="Wrap">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform AngleX="-18.435" />
+                    <RotateTransform />
+                    <TranslateTransform X="4" />
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+            <TextBlock.Effect>
+                <DropShadowEffect Opacity="0.6" Color="#FF918D8D" />
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock Width="105"
+                   Height="24"
+                   Margin="30,376,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontFamily="Segoe WP"
+                   FontWeight="Bold"
+                   RenderTransformOrigin="0.5,0.5"
+                   Text="Вид услуги"
+                   TextWrapping="Wrap">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform AngleX="-18.435" />
+                    <RotateTransform />
+                    <TranslateTransform X="4" />
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+            <TextBlock.Effect>
+                <DropShadowEffect Opacity="0.6" Color="#FF918D8D" />
+            </TextBlock.Effect>
+        </TextBlock>
+        <Button x:Name="addServise"
+                Width="75"
+                Margin="151,378,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="Добавить" />
+        <Button x:Name="printContract"
+                Width="75"
+                Margin="32,555,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Command="{Binding Print}"
+                Content="На печать" />
+        <Button x:Name="canselContract"
+                Width="75"
+                Margin="151,555,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="Отмена" />
+        <CheckBox Margin="32,116,0,0"
+                  HorizontalAlignment="Left"
+                  VerticalAlignment="Top"
+                  Content="" />
+        <TextBlock Width="185"
+                   Height="24"
+                   Margin="30,510,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   FontFamily="Segoe WP"
+                   FontWeight="Bold"
+                   RenderTransformOrigin="0.5,0.5"
+                   Text="Способ получения результатов"
+                   TextWrapping="Wrap">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform />
+                    <SkewTransform AngleX="-18.435" />
+                    <RotateTransform />
+                    <TranslateTransform X="4" />
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+            <TextBlock.Effect>
+                <DropShadowEffect Opacity="0.6" Color="#FF918D8D" />
+            </TextBlock.Effect>
+        </TextBlock>
+        <DatePicker x:Name="dateContract"
+                    Grid.Column="1"
+                    Width="160"
+                    Height="24"
+                    Margin="20,35,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    SelectedDate="{Binding dateContract}" />
+        <TextBox x:Name="name"
+                 Grid.Column="1"
+                 Width="305"
+                 Height="24"
+                 Margin="20,69,0,0"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Top"
+                 Text="{Binding name}"
+                 TextWrapping="Wrap" />
+        <TextBox x:Name="nameBaby"
+                 Grid.Column="1"
+                 Width="305"
+                 Height="24"
+                 Margin="20,109,0,0"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Top"
+                 Text="{Binding nameBaby}"
+                 TextWrapping="Wrap" />
+        <DatePicker x:Name="birthDay"
+                    Grid.Column="1"
+                    Width="160"
+                    Height="24"
+                    Margin="20,148,0,0"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    SelectedDate="{Binding birthday}" />
+        <TextBox x:Name="addres"
+                 Grid.Column="1"
+                 Width="305"
+                 Height="24"
+                 Margin="20,186,0,0"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Top"
+                 Text="{Binding addres}"
+                 TextWrapping="Wrap" />
+        <TextBox x:Name="phone"
+                 Grid.Column="1"
+                 Width="305"
+                 Height="24"
+                 Margin="20,226,0,0"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Top"
+                 Text="{Binding phone}"
+                 TextWrapping="Wrap" />
+        <TextBox x:Name="eMail"
+                 Grid.Column="1"
+                 Width="305"
+                 Height="24"
+                 Margin="20,262,0,0"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Top"
+                 Text="{Binding eMail}"
+                 TextWrapping="Wrap" />
+        <TextBox x:Name="diagnosis"
+                 Grid.Column="1"
+                 Width="305"
+                 Height="59"
+                 Margin="20,302,0,0"
+                 HorizontalAlignment="Left"
+                 VerticalAlignment="Top"
+                 Text="{Binding diagnosis}"
+                 TextWrapping="Wrap" />
+        <TextBlock x:Name="textBlockServise"
+                   Grid.Column="1"
+                   Width="305"
+                   Height="85"
+                   Margin="20,378,0,0"
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top"
+                   Text="TextBlock"
+                   TextWrapping="Wrap" />
+        <CheckBox Grid.Column="1"
+                  Margin="20,514,0,0"
+                  HorizontalAlignment="Left"
+                  VerticalAlignment="Top"
+                  Content="на руки" />
+        <CheckBox Grid.Column="1"
+                  Margin="118,514,0,0"
+                  HorizontalAlignment="Left"
+                  VerticalAlignment="Top"
+                  Content="по почте" />
+        <CheckBox Grid.Column="1"
+                  Margin="215,514,0,0"
+                  HorizontalAlignment="Left"
+                  VerticalAlignment="Top"
+                  Content="на e-mail" />
+
+    </Grid>
+</Window>
